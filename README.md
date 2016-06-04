@@ -1,7 +1,7 @@
 # inspireme
-Get an inspiring quote.
-
 [![CircleCI](https://circleci.com/gh/rzachariah/inspireme.svg?style=svg)](https://circleci.com/gh/rzachariah/inspireme)
+
+Get an inspiring quote.
 
 # Installation
 
