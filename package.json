@@ -1,0 +1,16 @@
+{
+  "name": "inspireme",
+  "version": "0.0.1",
+  "description": "gets an inspirational quote",
+  "main": "main.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ezephoenix/inspireme.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.13.3",
+    "request": "^2.63.0"
+  }
+}
