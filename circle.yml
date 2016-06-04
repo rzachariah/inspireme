@@ -13,7 +13,8 @@ dependencies:
 test:
   override:
     # Run container
-    - docker run --name serviceUnderTest -d -p 3557:80 $IMAGE_NAME:$CIRCLE_BUILD_NUM; sleep 10
+    - if [ ! -f env.list ]; then touch env.list; fi;
+    - docker run --name serviceUnderTest -d --env-file ./env.list -p 3557:80 $IMAGE_NAME:$CIRCLE_BUILD_NUM; sleep 10
     - docker ps -a
     - docker logs serviceUnderTest
     # Hit URL
