@@ -1,10 +1,11 @@
 FROM node
 
-EXPOSE 80
-
-COPY . /app
 WORKDIR /app
-
+ADD package.json /app
 RUN npm install
+COPY . /app
+
+ENV PORT 80
+EXPOSE 80
 
 ENTRYPOINT [ "node", "main.js" ]

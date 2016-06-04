@@ -2,7 +2,7 @@ var express = require('express');
 var request = require('request');
 
 var mashapeToken = process.env.MASHAPE_TOKEN || '';
-var port = process.env.PORT || 80;
+var port = process.env.PORT || 3000;
 
 var app = express();
 app.use(function(req, res, next) {
