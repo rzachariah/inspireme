@@ -1,6 +1,8 @@
 # inspireme
 Get an inspiring quote
 
+[![CircleCI](https://circleci.com/gh/rzachariah/inspireme.svg?style=svg)](https://circleci.com/gh/rzachariah/inspireme)
+
 # Installation
 
 Requires MASHAPE_TOKEN environment variable for access to Mashape quote API.
