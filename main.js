@@ -31,7 +31,7 @@ app.get('/', function(req,res){
       res.send(formatted);
     }
     else {
-      console.log(error);
+      res.status(500).send(response);
     }
   }
 
